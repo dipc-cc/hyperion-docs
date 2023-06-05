@@ -49,7 +49,7 @@ jobs:
       - name: gh-pages branch deploy
         run: |
           git branch gh-pages
-          git checkout 
+          git checkout gh-pages
           git add -A 
           git commit "gh-pages branch update"
           git puch origin gh-pages
