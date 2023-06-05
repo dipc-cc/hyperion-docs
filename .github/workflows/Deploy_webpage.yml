@@ -31,8 +31,8 @@ jobs:
           git config --global user.email iker.ortiz@dipc.org
       - name: Create gh-pages branch
         run: |
-          git checkout -b gh-pages
-          git add README.md
+          git checkout gh-pages
+          git add site
           git commit -m "Initial gh-pages commit"
           git push origin gh-pages
 
