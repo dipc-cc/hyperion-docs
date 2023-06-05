@@ -29,9 +29,9 @@ jobs:
         run: |
           git config --global user.name "iortizdeluzu"
           git config --global user.email iker.ortiz@dipc.org
-      - name: Delete gh-pages branch
-        run: |
-          git push origin --delete gh-pages
+          #      - name: Delete gh-pages branch
+          #        run: |
+          #          git push origin --delete gh-pages
       - name: Create gh-pages branch
         run: |
           git checkout -b gh-pages
