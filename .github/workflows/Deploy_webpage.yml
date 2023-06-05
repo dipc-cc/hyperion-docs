@@ -32,7 +32,6 @@ jobs:
       - name: Create gh-pages branch
         run: |
           git checkout -b gh-pages
-          find . ! -name "site" -exec rm -r {} +
           git add site/*
           git commit -m "Initial gh-pages commit"
           git push origin gh-pages
