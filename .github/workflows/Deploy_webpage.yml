@@ -1,0 +1,56 @@
+name: actions
+run-name: Deploy docs
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      
+      - name: Install dependencies
+        run: |
+          sudo apt install sshpass
+          pip install virtualenv
+          virtualenv mkdocs 
+          source mkdocs/bin/activate
+          pip install -r requirements.txt
+      
+      - name: Build documentation
+        run: |
+          ./mkdocs/bin/mkdocs build
+      - name: Archive build output
+        uses: actions/upload-artifact@v2
+        with:
+          name: build-output
+          path: ./site   
+  Deploy: 
+    needs: build
+    runs-on: ubuntu-latest
+    env:
+       SSH_PASS: ${{ secrets.SSH_PASS }}
+       REMOTE_SSH_USER: ${{ secrets.REMOTE_SSH_USER }}
+       REMOTE_IP: ${{ secrets.REMOTE_IP }}
+       REMOTE_DIR: ${{ secrets.REMOTE_DIR }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Download build output
+        uses: actions/download-artifact@v2
+        with:
+          name: build-output
+          path: ./site
+      - name: gh-pages branch deploy
+        run: |
+          git branch gh-pages
+          git checkout 
+          git add -A 
+          git commit "gh-pages branch update"
+          git puch origin gh-pages
+     

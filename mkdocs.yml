@@ -1,0 +1,96 @@
+site_name: Hyperion Documentation
+site_description: Hyperion Technical Documentation
+site_author: DIPC CC Staff
+
+# Copyright
+copyright: Copyright &copy; 2023 DIPC
+
+site_url: https://hyperion-docs.com
+
+# Navigation
+nav:
+  - Home: index.md
+  - About: about.md
+  - Training: 
+    - Introduction: Training/introduction/1_introduction.md
+    - Workflow: Training/workflow/2_workflow.md
+    - First Job: Training/3_first-job.md
+    - Monitoring: Training/4_monitoring.md
+    - Constrains: Training/5_contrains.md
+    - Post Run: Training/6_postrun.md
+    - Examplex: Training/7_examples.md
+    - Advanced: Training/advanced/index.md
+
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/DIPCehu
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/donostia-international-physics-center-dipc
+
+
+# Configuration
+theme:
+  name: material
+  logo: images/dipc-logo.png
+  favicon: images/favicon.ico
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: custom-dark
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Extra CSS styles
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/dark-palette.css
+
+# Extensions
+markdown_extensions:
+  - meta
+  - attr_list
+  - footnotes
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols:
+      fractions: false
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets
+
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
