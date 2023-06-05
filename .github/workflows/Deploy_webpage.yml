@@ -42,4 +42,6 @@ jobs:
           cp -r ../site/* .
           git add .
           git commit -m "Deploy site to gh-pages branch"
+          git config --global user.email iker.ortiz@dipc.org
+          git config --global user.name iortizdeluzu
           git push -u origin gh-pages
