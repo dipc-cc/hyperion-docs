@@ -33,11 +33,6 @@ jobs:
   Deploy: 
     needs: build
     runs-on: ubuntu-latest
-    env:
-       SSH_PASS: ${{ secrets.SSH_PASS }}
-       REMOTE_SSH_USER: ${{ secrets.REMOTE_SSH_USER }}
-       REMOTE_IP: ${{ secrets.REMOTE_IP }}
-       REMOTE_DIR: ${{ secrets.REMOTE_DIR }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -52,5 +47,5 @@ jobs:
           git checkout gh-pages
           git add -A 
           git commit "gh-pages branch update"
-          git puch origin gh-pages
+          git push origin gh-pages
      
