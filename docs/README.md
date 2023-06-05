@@ -38,5 +38,5 @@ git push origin --delete new_branch
 ## Deploy Webpage
 
 
-Change to `hyperion-docs` directory and run the build.sh script
+Change to `hyperion-docs` directory and run the `build.sh` script
 
