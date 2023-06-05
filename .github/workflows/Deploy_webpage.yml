@@ -34,7 +34,9 @@ jobs:
           #          git push origin --delete gh-pages
       - name: Create gh-pages branch
         run: |
-          git checkout -b gh-pages
-          git add site/*
+          git checkout gh-pages
+          git rm -r docs environm* mkdocs* req* test*
+          mv site/* .
+          git add -A
           git commit -m "Initial gh-pages commit"
           git push origin gh-pages
