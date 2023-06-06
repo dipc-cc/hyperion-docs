@@ -1,3 +1,3 @@
 # Job queue policy
 
-Here goes the queue polocies and contrictions
+Here goes the queue policies and contrictions

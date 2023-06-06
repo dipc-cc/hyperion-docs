@@ -40,7 +40,7 @@ Hyperion supply a rich set of compilers, HPC utilities, programming libraries, d
 
 We provide a list of application specific documentation that are built by DIPC staff. 
 
-Software can be accessed via `module` command. Go to [Software](/path/to/software) secttion to read in depth about it.
+Software can be accessed via `module` command. Go to [Software](/path/to/software) section to read in depth about it.
 
 !!! question "Something missing?" 
     If there is something missing that you would like to have on our systems, please [submit a request](/path/to/request/submission) and we will evaluate it for appropriateness, cost, effort, and benefit to the community.
