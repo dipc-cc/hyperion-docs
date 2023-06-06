@@ -1,17 +1,14 @@
 # Hyperion Technical Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the Hyperion technical documentation pertaining to the high-performance computing (HPC) systems hosted by the DIPC Supercomputing Center.
 
-## Commands
+Please feel free to [contact us](mailto:support-cc@dipc.org) with any questions, suggestions, or feedback you may have. Your input is highly valued and will help us continually improve our platform. As our site is under constant development, we encourage you to check back regularly for the latest updates and useful resources.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+This documentation will guide you through the essentials of using Hyperion and related services.
 
-## Project layout
+## Top documentation pages
+- [Getting Started](general/getting_started/index.md) - Information for new and existing users.
+- [Getting Help](general/getting_help/index.md) - How to get support.
+- [Job Queue Policy](general/Queue_policy/index.md) - Charge factors, run limits, submit limits.
+- [Sending Jobs (Slurm)](jobs/slurm/index.md) - Comprehensive information on using the SLURM batch system to manage and run jobs on Hyperion.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

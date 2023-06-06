@@ -11,6 +11,12 @@ site_url: https://hyperion-docs.com
 nav:
   - Home: index.md
   - About: about.md
+  - General:
+    - Accounts: general/account/index.md
+    - Getting Started: general/getting_started/index.md
+    - Getting Help: general/getting_help/index.md
+    - Job Queue Policy: jobs/queue_policy/index.md
+    - Sending Jobs: jobs/slurm/index.md
   - Training: 
     - Introduction: Training/introduction/1_introduction.md
     - Workflow: Training/workflow/2_workflow.md

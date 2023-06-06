@@ -37,6 +37,11 @@ git push origin --delete new_branch
 
 ## Deploy Webpage
 
+Provisionally, github pages will be used to serve the web page. To modify it, first download the repository and make the changes.
 
-Change to `hyperion-docs` directory and run the `build.sh` script
+```
+git clone git@github.com:dipc-cc/hyperion-docs.git
+```
+
+Go to `hyperion-docs` directory and run the `build.sh` script. 
 
