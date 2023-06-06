@@ -25,7 +25,7 @@ We kindly remind you that the approval of account requests is not automatic and 
 
 A user is given a username (also known as a login name) and associated password that permits that user to access Hyperion. This username/password pair may be used by a single individual only: _passwords must not be shared with any other person._
 
-Passwords must be changed as soon as possible after exposure or suspected compromise. Exposure of passwords and suspected compromises must immediately be reported to the [support team](support-cc@dipc.org)
+Passwords must be changed as soon as possible after exposure or suspected compromise. Exposure of passwords and suspected compromises must immediately be reported to the support team. 
 
 ### Modifying Your Password
 
