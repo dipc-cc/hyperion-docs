@@ -10,7 +10,6 @@ site_url: https://hyperion-docs.com
 # Navigation
 nav:
   - Home: index.md
-  - About: about.md
   - General:
     - Accounts: general/account/index.md
     - Getting Started: general/getting_started/index.md

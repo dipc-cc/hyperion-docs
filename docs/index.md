@@ -7,6 +7,7 @@ Please feel free to [contact us](mailto:support-cc@dipc.org) with any questions,
 This documentation will guide you through the essentials of using Hyperion and related services.
 
 ## Top documentation pages
+- [Startin with a new account](general/account/index) - Information for new and existing users.
 - [Getting Started](general/getting_started/index.md) - Information for new and existing users.
 - [Getting Help](general/getting_help/index.md) - How to get support.
 - [Job Queue Policy](general/Queue_policy/index.md) - Charge factors, run limits, submit limits.
