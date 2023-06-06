@@ -14,8 +14,12 @@ nav:
     - Accounts: general/account/index.md
     - Getting Started: general/getting_started/index.md
     - Getting Help: general/getting_help/index.md
+  - Jobs:
     - Job Queue Policy: jobs/queue_policy/index.md
     - Sending Jobs: jobs/slurm/index.md
+  - Software:
+    - Environment Modules: software/modules/index.md
+    - Applications: software/applications/index.md
   - Training: 
     - Introduction: Training/introduction/1_introduction.md
     - Workflow: Training/workflow/2_workflow.md
