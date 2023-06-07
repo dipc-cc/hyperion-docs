@@ -60,4 +60,21 @@ Lists status info for a currently running job:
 sstat --format=JobID,Nodelist -j <jobid>
 ```
 
+## Email notification
 
+You may want to have SLURM send you email on certain events affecting your jobs. You can receive email to notify a job failure, completion, or if a job started. 
+
+Add the following to your batch script to set the email address:
+
+```
+#SBATCH --mail-user=your@email.org
+```
+
+These are the different types of notifications:
+
+```
+#SBATCH --mail-type=BEGIN
+#SBATCH --mail-type=END
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-type=ALL
+```
