@@ -51,6 +51,31 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://hyperion-docs.com/filesystem/</loc>
+         <lastmod>2023-06-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hyperion-docs.com/filesystem/data_transfer/</loc>
+         <lastmod>2023-06-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hyperion-docs.com/filesystem/home/</loc>
+         <lastmod>2023-06-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hyperion-docs.com/filesystem/long_storage/</loc>
+         <lastmod>2023-06-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hyperion-docs.com/filesystem/scratch/</loc>
+         <lastmod>2023-06-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://hyperion-docs.com/general/account/</loc>
          <lastmod>2023-06-07</lastmod>
          <changefreq>daily</changefreq>

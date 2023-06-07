@@ -11,23 +11,26 @@ site_url: https://hyperion-docs.com
 nav:
   - Home: index.md
   - General:
-    - Accounts: general/account/index.md
-    - Getting Started: general/getting_started/index.md
-    - Getting Help: general/getting_help/index.md
+     - Accounts: general/account/index.md
+     - Getting Started: general/getting_started/index.md
+     - Getting Help: general/getting_help/index.md
   - Jobs:  
-    - Sending Jobs: jobs/slurm/index.md
-    - Job Queue Policy: jobs/queue_policy/index.md
-    - Best Practices: jobs/best_practices/index.md
-    - Monitoring: jobs/monitoring/index.md
-    - Reservation: jobs/reservations/index.md
-  - Storage and filesystem: filesystem/index.md
-    - Home: filesystem/home/index.md
-    - Scratch: filesystem/scratch/index.md
-    - Long term storage: filesystem/long_storage/index.md
-    - Data transfer: filesystem/data_transfer/index.md
+     - jobs/index.md
+     - Sending Jobs: jobs/slurm/index.md
+     - Job Queue Policy: jobs/queue_policy/index.md
+     - Best Practices: jobs/best_practices/index.md
+     - Monitoring: jobs/monitoring/index.md
+     - Reservation: jobs/reservations/index.md
+  - Storage and filesystem: 
+     - filesystem/index.md
+     - Home: filesystem/home/index.md
+     - Scratch: filesystem/scratch/index.md
+     - Long term storage: filesystem/long_storage/index.md
+     - Data transfer: filesystem/data_transfer/index.md
   - Software:
     - Environment Modules: software/modules/index.md
-    - Applications: software/applications/index.md
+    - Applications: 
+      - software/applications/index.md
       - AMBER: software/applications/AMBER/index.md
       - GROMACS: software/applications/GROMACS/index.md
       - Matematica: software/applications/Matematica/index.md
