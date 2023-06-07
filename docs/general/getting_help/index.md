@@ -10,6 +10,18 @@ Please note that we strongly recommend using our email support for a more struct
 
 Our Support team's operating hours are from Monday to Friday, 9:00 AM to 6:00 PM. We assure you that all inquiries will receive a timely and thorough response.
 
+!!! note "The good ticket"
+    In order to ensure efficient timely resolution of issues include as much of the following as possible when making a request:
+
+    - Error messages
+    - JobID 
+    - Location of relevant files such as input/output, job scripts, source code, or executables
+    - Output of module list
+    - Any steps you have tried
+    - Steps to reproduce
+
+
+
 ## Software and Application request
 
 Our High-Performance Computing (HPC) systems are equipped with an extensive range of utilities, applications, and programming libraries, supporting a wide spectrum of research needs.
