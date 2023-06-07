@@ -19,7 +19,7 @@ nav:
     - Job Queue Policy: jobs/queue_policy/index.md
     - Best Practices: jobs/best_practices/index.md
     - Monitoring: jobs/monitoring/index.md
-    - Reservation: jobs/reservation/index.md
+    - Reservation: jobs/reservations/index.md
   - Software:
     - Environment Modules: software/modules/index.md
     - Applications: software/applications/index.md
