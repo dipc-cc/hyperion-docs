@@ -2,7 +2,7 @@
 
 Users can request a scheduled reservation of machine resources if their jobs have special needs that cannot be accommodated through the regular batch system. A reservation brings some portion of the machine to a specific user or project for an agreed upon duration. Typically this is used for interactive debugging at scale or real time processing linked to some experiment or event.
 
-!!! failure
+!!! failure "Note"
     It is not intended to be used to guarantee fast throughput for production runs.
 
 ## Fairshare
@@ -15,7 +15,7 @@ To reserve compute nodes, please ask for the least amount of resources you need 
 
 ## Viewing reservations
 
-To view all reservations run scontrol show reservations, the output will consist of one entry per reservation name. Take a close look at the reservation fields such as `StartTime`, `EndTime`, `Duration`, `Nodes`, `Users`, `Accounts` to understand what the reservation.
+To view all reservations run 'scontrol show reservations', the output will consist of one entry per reservation name. Take a close look at the reservation fields such as `StartTime`, `EndTime`, `Duration`, `Nodes`, `Users`, `Accounts` to understand what the reservation.
 
 ## Using a reservation
 

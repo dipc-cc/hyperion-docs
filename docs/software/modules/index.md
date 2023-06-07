@@ -18,31 +18,18 @@ Further reading:
 
 ## Command Summary
 | Command                                   | Description                                               |
-
-| ------------------------------------------| ----------------------------------------------------------|
-
+| ----------------------------------------- | --------------------------------------------------------- |
 | `module list`                             | List active modules in the user environment               |
-
 | `module av[ail] [module]`                 | List available modules in MODULEPATH                      |
-
-| `module add|load [module]`                | Load a module file in the user environment                |
-
-| `module rm|unload [module]`               | Remove a *loaded* module from the user environment        |
-
+| `module add\|load [module]`                | Load a module file in the user environment                |
+| `module rm\|unload [module]`               | Remove a *loaded* module from the user environment        |
 | `module purge`                            | Remove all modules from the user environment              |
-
-| `module swap|switch [module1] [module2]`  | Replace `module1` with `module2`                          |
-
-| `module show|display [module]`            | Show content of commands performed by loading module file |
-
+| `module swap\|switch [module1] [module2]`  | Replace `module1` with `module2`                          |
+| `module show\|display [module]`            | Show content of commands performed by loading module file |
 | `module help [module]`                    | Show help for a given module                              |
-
 | `module whatis [module]`                  | A brief description of the module, generally single line  |
-
 | `module use [-a] [path]`                  | Prepend or Append path to MODULEPATH                      |
-
 | `module unuse [path]`                     | Remove path from MODULEPATH                               |
-
 | `module keyword [text]`                   | Search for keyword across all module files                |
 
 

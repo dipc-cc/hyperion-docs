@@ -14,7 +14,7 @@ nav:
     - Accounts: general/account/index.md
     - Getting Started: general/getting_started/index.md
     - Getting Help: general/getting_help/index.md
-  - Jobs: jobs/index.md 
+  - Jobs:  
     - Sending Jobs: jobs/slurm/index.md
     - Job Queue Policy: jobs/queue_policy/index.md
     - Best Practices: jobs/best_practices/index.md
