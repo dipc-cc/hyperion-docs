@@ -96,6 +96,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://hyperion-docs.com/software/applications/</loc>
+         <lastmod>2023-06-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://hyperion-docs.com/software/modules/</loc>
          <lastmod>2023-06-07</lastmod>
          <changefreq>daily</changefreq>
