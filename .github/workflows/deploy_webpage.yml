@@ -1,6 +1,6 @@
 name: actions
 run-name: Deploy docs
-on: [push]i
+on: [push]
 env:
   SSH_PUBLIC_KEY: ${{ secrets.SSH_PUBLIC_KEY }}
   SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
