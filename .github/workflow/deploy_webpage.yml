@@ -1,0 +1,28 @@
+name: actions
+run-name: Deploy docs
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      
+      - name: Install dependencies
+        run: |
+          sudo apt install sshpass
+          pip install virtualenv
+          virtualenv mkdocs 
+          source mkdocs/bin/activate
+          pip install -r requirements.txt
+          pip install --upgrade --force-reinstall mkdocs-material
+      
+      - name: Build documentation
+        run: |
+          ./mkdocs/bin/mkdocs build
