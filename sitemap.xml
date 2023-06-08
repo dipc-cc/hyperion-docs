@@ -76,6 +76,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://hyperion-docs.com/general/</loc>
+         <lastmod>2023-06-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://hyperion-docs.com/general/account/</loc>
          <lastmod>2023-06-08</lastmod>
          <changefreq>daily</changefreq>
@@ -117,6 +122,11 @@
     </url>
     <url>
          <loc>https://hyperion-docs.com/jobs/slurm/</loc>
+         <lastmod>2023-06-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hyperion-docs.com/software/</loc>
          <lastmod>2023-06-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
