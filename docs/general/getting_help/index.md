@@ -32,4 +32,4 @@ If there's a specific tool or software missing that you believe would enhance yo
 
 Your software suggestion will be evaluated based on its relevance, cost, effort, and potential benefits to the community.
 
-For more in-depth information on software management, please consult our [Environment Modules](software/modules/index.md) section.
+For more in-depth information on software management, please consult our ![Environment Modules](../../software/modules/index.md) section.

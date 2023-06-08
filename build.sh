@@ -4,6 +4,11 @@ pip install virtualenv
 virtualenv mypython
 pip install -r requirements.txt
 
+ssh root@atlas-edr.sw.ehu.es 'ml av SIESTA' >> docs/software/applications/index.md 2>&1
+
+
+
+
 mkdocs build
 cd site
 git init
@@ -20,3 +25,4 @@ git push origin gh-pages
 
 git branch -d new_branch
 git push origin --delete new_branch
+

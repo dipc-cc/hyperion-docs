@@ -52,6 +52,6 @@ These rules are put in place to ensure the security of your account and protect 
 
 ### Forgotten passwords
 
-If you have forgotten your password, do not worry, send an email to [technical support](support-cc@dipc.ord). You will be provided with a temporary password.
+If you have forgotten your password, do not worry, send an email to ![technical support](support-cc@dipc.org). You will be provided with a temporary password.
 You will have to change this password when you reconnect to Hyperion and you will have to meet the requirements explained above.
 

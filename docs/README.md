@@ -1,5 +1,9 @@
 # Hyperion Technical Documentation
 
+This repository contains Hyperion HPC technical documentation written in markdown and processed wit hmkdocs static site generator. The documentation pages are found in the top-level folder docs.
+
+# Contributing
+
 ## Making changes in the repository 
 
 First of all ownload the Git repository
