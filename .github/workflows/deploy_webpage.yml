@@ -3,7 +3,7 @@ run-name: Deploy docs
 on: [push]
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
       
     steps:
       - name: Checkout repository
