@@ -12,40 +12,16 @@ First of all ownload the Git repository
 git clone git@github.com:dipc-cc/hyperion-docs.git
 ```
 
-To make changes in the repositoy. First create a new branch inside the `hyperion-docs` directory:
-
-```
-git checkout -b new_branch
-
-```
-
 After making all needed changes run the following command to apply the changes:
 
 ```
 git add -A
 git commit -m "Description about the modifications"
-git push origin new_branch
-git checkout main
-git pull origin main
-git merge new_branch
-git push origin main
+git push origin master
 ```
 
-Delete the branch used to make changes
+Every time a push is made to the `master` branch, a github actions process will be activated, which will be in charge of deploying the web page.
 
-```
-git branch -d new_branch
-git push origin --delete new_branch
-```
+If you need to make changes to the GitHub Actions configuration, edit the deploy_webpage.yml file in the `.github/workflows` directory
 
-
-## Deploy Webpage
-
-Provisionally, github pages will be used to serve the web page. To modify it, first download the repository and make the changes.
-
-```
-git clone git@github.com:dipc-cc/hyperion-docs.git
-```
-
-Go to `hyperion-docs` directory and run the `build.sh` script. 
 
