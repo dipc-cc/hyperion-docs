@@ -123,5 +123,3 @@ plugins:
   - search
   - minify:
       minify_html: true
-plugins_dir:
-  - plugins
