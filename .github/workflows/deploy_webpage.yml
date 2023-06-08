@@ -1,6 +1,12 @@
 name: actions
 run-name: Deploy docs
-on: [push]
+on: [push]i
+env:
+  SSH_PUBLIC_KEY: ${{ secrets.SSH_PUBLIC_KEY }}
+  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+  REMOTE_SSH_USER: ${{ secrets.REMOTE_SSH_USER }}
+  REMOTE_IP: ${{ secrets.REMOTE_IP }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,6 +32,10 @@ jobs:
       - name: Build documentation
         run: |
           ./mkdocs/bin/mkdocs build
+      - name: 
+
+
+
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
         with:
