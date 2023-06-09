@@ -1,6 +1,11 @@
 name: actions
 run-name: Deploy docs
 on: [push]
+env:
+  SSH_PUBLIC_KEY: ${{ secrets.SSH_PUBLIC_KEY }}
+  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+  REMOTE_SSH_USER: ${{ secrets.REMOTE_SSH_USER }}
+  REMOTE_IP: ${{ secrets.REMOTE_IP }}
 
 jobs:
   build:
@@ -27,6 +32,17 @@ jobs:
       - name: Build documentation
         run: |
           ./mkdocs/bin/mkdocs build
+      - name: Create public and private SSH keys
+        run: |
+          mkdir ~/.ssh
+          echo "$SSH_PUBLIC_KEY" > ~/.ssh/id_rsa.pub
+          echo "$SSH_PRIVATE_KEY" | base64 --decode > ~/.ssh/id_rsa
+          chmod 0600 ~/.ssh/id_rsa
+          chmod 0644 ~/.ssh/id_rsa.pub
+      - name: test ssh
+        run: |
+          ssh "$REMOTE_SSH_USER"@"$REMOTE_IP" 'echo "Hello World !!"'
+
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
         with:
