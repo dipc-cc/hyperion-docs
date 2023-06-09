@@ -1,4 +1,4 @@
-name: seftware-update
+name: software-update
 run-name: software-update
 on: 
   push:
@@ -39,12 +39,12 @@ jobs:
         run: |
           mkdir ~/.ssh
           echo "$SSH_PUBLIC_KEY" > ~/.ssh/id_rsa.pub
-          echo "$SSH_PRIVATE_KEY" | base64 --decode > ~/.ssh/id_rsa
+          #          echo "$SSH_PRIVATE_KEY" | base64 --decode > ~/.ssh/id_rsa
           chmod 0600 ~/.ssh/id_rsa
           chmod 0644 ~/.ssh/id_rsa.pub
-      - name: test ssh
-        run: |
-          ssh "$REMOTE_SSH_USER"@"$REMOTE_IP" 'echo "Hello World !!"'
+          #      - name: test ssh
+          #        run: |
+          #          ssh "$REMOTE_SSH_USER"@"$REMOTE_IP" 'echo "Hello World !!"'
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
