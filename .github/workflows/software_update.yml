@@ -42,7 +42,8 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 0600 ~/.ssh/id_rsa
           chmod 0644 ~/.ssh/id_rsa.pub
-      - name: |
+      - name: ssh test command
+        run: |
           ssh "$REMOTE_SSH_USER"@"$REMOTE_IP" 'echo hello!'
 
       - name: Deploy to gh-pages branch
