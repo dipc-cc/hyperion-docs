@@ -123,3 +123,6 @@ plugins:
   - search
   - minify:
       minify_html: true
+  - gen-files:
+      script:
+          - gen_pages.py 
