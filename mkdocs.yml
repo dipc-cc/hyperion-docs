@@ -124,5 +124,5 @@ plugins:
   - minify:
       minify_html: true
   - gen-files:
-      script:
+      scripts:
           - gen_pages.py 
