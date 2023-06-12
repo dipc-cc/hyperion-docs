@@ -35,18 +35,14 @@ jobs:
       - name: Build documentation
         run: |
           ./mkdocs/bin/mkdocs build
-      - name: Create public and private SSH keys
-        run: |
-          mkdir ~/.ssh
-          echo "$SSH_PUBLIC_KEY" > ~/.ssh/id_rsa.pub
-          echo "-----BEGIN OPENSSH PRIVATE KEY-----" > ~/.ssh/id_rsa
-          echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_rsa
-          echo "-----END OPENSSH PRIVATE KEY-----" >> ~/.ssh/id_rsa
-          chmod 0600 ~/.ssh/id_rsa
-          chmod 0644 ~/.ssh/id_rsa.pub
-      - name: ssh test command
-        run: |
-          ssh "$REMOTE_SSH_USER"@"$REMOTE_IP" 'echo hello!'
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: whoami
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
