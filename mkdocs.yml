@@ -125,4 +125,4 @@ plugins:
       minify_html: true
   - gen-files:
       scripts:
-          - gen_pages.py 
+        - docs/gen_pages.py
