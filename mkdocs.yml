@@ -119,6 +119,9 @@ markdown_extensions:
   - pymdownx.snippets
 
 
+watch:
+  - mkdocs_gen_files
+
 # Plugins
 plugins:
   - search
@@ -127,3 +130,10 @@ plugins:
   - gen-files:
       scripts:
         - docs/gen_pages.py
+   - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_root_heading: true
+            show_signature_annotations: true
+            show_source: false
