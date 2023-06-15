@@ -9,7 +9,8 @@ site_url: https://hyperion-docs.com
 
 # Navigation
 nav:
-  - Home: 
+  - Home:
+    - example.md 
     - index.md
     - Accounts: general/account/index.md
     - Getting Started: general/getting_started/index.md
@@ -47,7 +48,6 @@ nav:
     - Examplex: Training/7_examples.md
     - Advanced: Training/advanced/index.md
     - Staff: staff/index.md
-  - Sample: sample/
 
 
 # Extras
@@ -126,13 +126,6 @@ plugins:
   - search
   - minify:
       minify_html: true
-  - gen-files:
-      scripts:
-        - docs/gen_pages.py
-  - mkdocstrings:
-      handlers:
-        python:
-          options:
-            show_root_heading: true
-            show_signature_annotations: true
-            show_source: false
+  - custom_plugin
+
+
