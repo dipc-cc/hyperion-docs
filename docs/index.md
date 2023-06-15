@@ -10,6 +10,6 @@ This documentation will guide you through the essentials of using Hyperion and r
 - [Startin with a new account](general/account/index) - Information for new and existing users.
 - [Getting Started](general/getting_started/index.md) - Information for new and existing users.
 - [Getting Help](general/getting_help/index.md) - How to get support.
-- [Job Queue Policy](general/Queue_policy/index.md) - Charge factors, run limits, submit limits.
+- [Job Queue Policy](jobs/queue_policy/index.md) - Charge factors, run limits, submit limits.
 - [Sending Jobs (Slurm)](jobs/slurm/index.md) - Comprehensive information on using the SLURM batch system to manage and run jobs on Hyperion.
 
