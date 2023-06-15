@@ -123,6 +123,7 @@ markdown_extensions:
 plugins:
   - search
   - mkdocstrings:
+    watch: [calculator]
     handlers:
         python:
           rendering:
