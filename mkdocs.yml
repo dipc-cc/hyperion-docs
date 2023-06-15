@@ -122,7 +122,12 @@ markdown_extensions:
 # Plugins
 plugins:
   - search
-  - mkdocstrings
+  - mkdocstrings:
+    handlers:
+        python:
+          rendering:
+            show_signature_annotations: true
+            show_source: false
   - minify:
       minify_html: true
 
