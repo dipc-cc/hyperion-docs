@@ -2,202 +2,172 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://hyperion-docs.com/</loc>
-         <lastmod>2023-06-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hyperion-docs.com/about/</loc>
-         <lastmod>2023-06-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hyperion-docs.com/api/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/Training/3_first-job/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/Training/4_monitoring/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/Training/5_constrains/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/Training/6_postrun/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/Training/7_examples/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/Training/advanced/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/Training/introduction/1_introduction/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/Training/workflow/2_workflow/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hyperion-docs.com/calculator/calculator/</loc>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/filesystem/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/filesystem/data_transfer/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/filesystem/home/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/filesystem/long_storage/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/filesystem/scratch/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/general/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/general/account/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/general/getting_help/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/general/getting_started/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/jobs/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/jobs/best_practices/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/jobs/monitoring/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/jobs/queue_policy/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/jobs/reservations/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/jobs/slurm/</loc>
-         <lastmod>2023-06-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hyperion-docs.com/sample/19-bottles/</loc>
-         <lastmod>2023-06-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hyperion-docs.com/sample/39-bottles/</loc>
-         <lastmod>2023-06-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hyperion-docs.com/sample/59-bottles/</loc>
-         <lastmod>2023-06-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hyperion-docs.com/sample/79-bottles/</loc>
-         <lastmod>2023-06-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://hyperion-docs.com/sample/99-bottles/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/software/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/software/applications/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/software/applications/AMBER/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/software/applications/GROMACS/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/software/applications/MATLAB/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/software/applications/Matematica/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/software/applications/SIESTA/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/software/modules/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hyperion-docs.com/staff/</loc>
-         <lastmod>2023-06-14</lastmod>
+         <lastmod>2023-06-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
