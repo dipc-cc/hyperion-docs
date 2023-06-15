@@ -10,7 +10,6 @@ site_url: https://hyperion-docs.com
 # Navigation
 nav:
   - Home:
-    - example.md 
     - index.md
     - Accounts: general/account/index.md
     - Getting Started: general/getting_started/index.md
@@ -48,6 +47,8 @@ nav:
     - Examplex: Training/7_examples.md
     - Advanced: Training/advanced/index.md
     - Staff: staff/index.md
+  - Calculator: calculator/calculator.md
+
 
 
 # Extras
@@ -121,8 +122,8 @@ markdown_extensions:
 # Plugins
 plugins:
   - search
+  - mkdocstrings
   - minify:
       minify_html: true
-  - custom_plugin
 
 
