@@ -118,9 +118,6 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.snippets
 
-watch:
-  - mkdocs_gen_files
-
 # Plugins
 plugins:
   - search
