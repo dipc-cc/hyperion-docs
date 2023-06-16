@@ -33,3 +33,4 @@ update==0.0.1
 urllib3==1.26.14
 watchdog==2.2.1
 mkdocstrings==0.22.0
+mkdocs-gen-files
