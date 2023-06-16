@@ -16,3 +16,13 @@ def add(a, b):
 def substract(a, b):
     """Compute and return rest of two numbers"""
     return float(a-b)
+
+def multiplication(a, b):
+    """Compute and return multiplication of two numbers"""
+    return float(a*b)
+
+def print_hello_world():
+    """Prints 'Hello, World!' to the console"""
+    print("Hello, World!")
+
+print("Hello, World!")
