@@ -6,6 +6,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://hyperion-docs.com/HELLOWORLD/</loc>
+         <lastmod>2023-06-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hyperion-docs.com/test/</loc>
+         <lastmod>2023-06-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://hyperion-docs.com/Training/3_first-job/</loc>
          <lastmod>2023-06-16</lastmod>
          <changefreq>daily</changefreq>
