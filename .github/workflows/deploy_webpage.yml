@@ -37,11 +37,6 @@ jobs:
           chmod 0600 ~/.ssh/id_rsa
           chmod 0644 ~/.ssh/id_rsa.pub
       
-      - name: Modify Documentation
-        run: |
-          sed -i "s/var_user/$REMOTE_SSH_USER/g" docs/staff/index.md 
-          sed -i "s/SSH_PRIVATE_PASS/$REMOTE_SSH_USER/g" docs/staff/index.md
-
       - name: Build documentation
         run: |
           ./mkdocs/bin/mkdocs build
