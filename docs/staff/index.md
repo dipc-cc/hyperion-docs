@@ -104,14 +104,7 @@ Julen can be contacted at [julen.suarez@dipc.org](mailto:julen.suarez@dipc.org).
 
 
 
-```python exec="1" updatetoc="no"
-print("# XL heading\n")
-print("## L heading\n")
-print("### M heading\n")
-print("#### S heading\n")
-```
-Rendered
-
 ```bash exec="1" source="material-block"
-echo $BASH_VERSION
+var=$(ssh $REMOTE_SSH_USER@$REMOTE_IP 'lscpu')
+echo $var
 ```
