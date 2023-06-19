@@ -130,12 +130,8 @@ markdown_extensions:
 # Plugins
 plugins:
   - search
-  - mkdocstrings
   - minify:
       minify_html: true
-  - gen-files:
-      scripts:
-        - docs/gen_pages.py
   - markdown-exec
 
 
