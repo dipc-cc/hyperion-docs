@@ -51,11 +51,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hyperion-docs.com/calculator/calculator/</loc>
-         <lastmod>2023-06-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://hyperion-docs.com/filesystem/</loc>
          <lastmod>2023-06-19</lastmod>
          <changefreq>daily</changefreq>

@@ -56,3 +56,4 @@ dependencies:
     - watchdog==2.2.1
     - mkdocs-gen-files
     - markdown-exec[ansi]
+    - paramiko
