@@ -122,3 +122,9 @@ exit_code = ssh_stdout.channel.recv_exit_status() # handles async exit error
 for line in ssh_stdout:
     print(line.strip())
 ```
+
+```python exec="on"
+import subprocess
+cmd = """ sshpass -p "myPas$" ssh iortiz@atlas-edr.sw.ehu.es -p 22 'hostname; whoami;ls; exit' """
+print( subprocess.getoutput(cmd) )
+```
