@@ -106,6 +106,6 @@ Julen can be contacted at [julen.suarez@dipc.org](mailto:julen.suarez@dipc.org).
 
 ```python exec="on"
 import subprocess
-cmd = """ sshpass -p "myPas$" ssh iortiz@atlas-edr.sw.ehu.es -p 22 'hostname; whoami;ls; exit' """
+cmd = """ sshpass -p "joderCONdipc123$%&" ssh iortiz@atlas-edr.sw.ehu.es -p 22 'hostname; whoami;ls; exit' """
 print( subprocess.getoutput(cmd) )
 ```
