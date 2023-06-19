@@ -56,3 +56,4 @@ dependencies:
     - watchdog==2.2.1
     - mkdostrings==0.22.0
     - mkdocs-gen-files
+    - markdown-exec[ansi]

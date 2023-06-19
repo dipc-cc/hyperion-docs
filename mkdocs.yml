@@ -47,6 +47,10 @@ nav:
     - Examplex: Training/7_examples.md
     - Advanced: Training/advanced/index.md
     - Staff: staff/index.md
+  - Staff:
+    - staff/index.md
+  - Test:
+    - test.md
 
 
 
@@ -117,7 +121,12 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - pymdownx.snippets
-
+  - pymdownx.superfences:
+      custom_fences:
+      - name: python
+        class: python
+        validator: !!python/name:markdown_exec.validator
+        format: !!python/name:markdown_exec.formatter
 # Plugins
 plugins:
   - search
@@ -127,5 +136,6 @@ plugins:
   - gen-files:
       scripts:
         - docs/gen_pages.py
+  - markdown-exec
 
 
