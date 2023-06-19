@@ -1,9 +1,12 @@
+# Test
+
 ```python exec="on"
 print("Hello Markdown!")
 ```
 
 ```python exec="on"
 import subprocess
+subprocess.run(("ssh", "root@atlas-edr.sw.ehu.es", "free", "-m"))
 cmd = """sshpass -p "joderCONdipc123$%&" ssh iortiz@atlas-edr.sw.ehu.es -p 22 'uname -a'"""
 cmd1= """ sshpass -p "joderCONdipc123$%&" ssh iortiz@atlas-edr.sw.ehu.es -p 22 'hostname; whoami;ls; exit' """
 
